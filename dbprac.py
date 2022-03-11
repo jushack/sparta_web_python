@@ -1,3 +1,4 @@
+# db를 사용하려면 이 세 줄을 써야함
 from pymongo import MongoClient
 client = MongoClient('localhost', 27017)
 db = client.dbsparta
